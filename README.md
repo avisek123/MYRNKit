@@ -1,4 +1,4 @@
-# rnKit
+# MYRNKit
 
 ⚛️ React Native Boilerplate: Jumpstart your app development with essential configurations for React Native projects. Includes libraries, navigation, state management. Streamline your workflow and focus on building amazing mobile experiences! 📱✨
 
@@ -21,10 +21,10 @@
 To create a new project using the boilerplate simply run :
 
 ```
-npx react-native@latest init MyApp --template my_rnkit
+npx react-native@latest init MyApp --template my-rn-kit
 ```
 
-## Libraries Using my_rnkit 📚
+## Libraries Using MYRNKit 📚
 
 <table>
 <tr>
@@ -117,4 +117,4 @@ yarn ios
 
 ## Acknowledgements
 
-A big thank you to all users of the rnKit React Native Boilerplate. Your support and feedback are invaluable, driving continuous improvement and making this project a success.Your contributions to the React Native development community are greatly appreciated.
+A big thank you to all users of the MYRNKit React Native Boilerplate. Your support and feedback are invaluable, driving continuous improvement and making this project a success.Your contributions to the React Native development community are greatly appreciated.
