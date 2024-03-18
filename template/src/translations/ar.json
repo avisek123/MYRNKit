@@ -1,0 +1,16 @@
+{
+  "LOG_IN_TO_YOUR_ACCOUNT": "تسجيل الدخول إلى حسابك",
+  "WELCOME_BACK_PLEASE_ENTER_YOUR_DETAILS": "مرحبًا بعودتك! ",
+  "EMAIL": "بريد إلكتروني",
+  "ENTER_YOUR_EMAIL": "أدخل بريدك الإلكتروني",
+  "PASSWORD": "كلمة المرور",
+  "ENTER_YOUR_PASSWORD": "ادخل رقمك السري",
+  "LOG_IN": "تسجيل الدخول",
+  "EMAIL_REQ": "البريد الالكتروني مطلوب!",
+  "PASS_REQ": "كلمة المرور مطلوبة!",
+  "Products_Gallery": "معرض المنتجات",
+  "Settings": "إعدادات",
+  "Language": "لغة",
+  "Logout": "تسجيل خروج",
+  "CHANGE_LANGUAGE": "تغيير اللغة"
+}

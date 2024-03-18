@@ -1,0 +1,15 @@
+current directory: /Users/aviseksahoo/Desktop/mmta/MYRNKit/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+/Users/aviseksahoo/.rbenv/versions/2.6.10/bin/ruby -I /Users/aviseksahoo/.rbenv/versions/2.6.10/lib/ruby/2.6.0 -r ./siteconf20240318-31231-7giv2l.rb extconf.rb
+creating Makefile
+
+current directory: /Users/aviseksahoo/Desktop/mmta/MYRNKit/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" clean
+
+current directory: /Users/aviseksahoo/Desktop/mmta/MYRNKit/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR="
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/aviseksahoo/Desktop/mmta/MYRNKit/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20240318-31231-1swhcj4

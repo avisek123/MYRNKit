@@ -1,0 +1,13 @@
+current directory: /Users/aviseksahoo/Desktop/mmta/MYRNKit/vendor/bundle/ruby/2.6.0/gems/json-2.7.1/ext/json
+/Users/aviseksahoo/.rbenv/versions/2.6.10/bin/ruby -I /Users/aviseksahoo/.rbenv/versions/2.6.10/lib/ruby/2.6.0 -r ./siteconf20240318-31231-t67pp1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/aviseksahoo/Desktop/mmta/MYRNKit/vendor/bundle/ruby/2.6.0/gems/json-2.7.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/aviseksahoo/Desktop/mmta/MYRNKit/vendor/bundle/ruby/2.6.0/gems/json-2.7.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/aviseksahoo/Desktop/mmta/MYRNKit/vendor/bundle/ruby/2.6.0/gems/json-2.7.1/ext/json
+make "DESTDIR=" install
