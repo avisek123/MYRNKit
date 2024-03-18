@@ -2,6 +2,11 @@
 
 ⚛️ React Native Boilerplate: Jumpstart your app development with essential configurations for React Native projects. Includes libraries, navigation, state management. Streamline your workflow and focus on building amazing mobile experiences! 📱✨
 
+<!-- ![React Native Boilerplate License](https://img.shields.io/github/license/avisek123/MYRNKit) -->
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
+![React Native Boilerplate Top Language](https://img.shields.io/github/languages/top/avisek123/MYRNKit)
+[![npm version](https://img.shields.io/npm/v/brew-react-native-kit)](https://www.npmjs.com/package/my-rn-kit)
+
 # 📱 Preview of myapp
 
 
