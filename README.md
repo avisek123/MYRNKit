@@ -125,6 +125,22 @@ cd ios
 pod install
 yarn ios
 ```
+## 💖 Support my projects
+
+I open-source almost everything I can, and I try to reply everyone needing help using these projects. Obviously, this takes time. You can integrate and use these projects in your applications for free! You can even change the source code and redistribute (even resell it).
+
+However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
+
+- Starring and sharing the projects you like 🚀
+- If you're feeling especially charitable, please follow [avisek123](https://github.com/avisek123) on GitHub.
+
+  <a href="https://www.buymeacoffee.com/avisek123 target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+  Thanks! ❤️
+  <br/>
+  [avisek123.github.io](https://github.com/avisek123)
+  <br/>
+  <Avisek />
 
 ## Acknowledgements
 
