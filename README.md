@@ -125,6 +125,11 @@ cd ios
 pod install
 yarn ios
 ```
+## 🤔 How to contribute
+
+Have an idea? Found a bug? Please raise to [ISSUES](https://github.com/avisek123/MYRNKit/issues).
+Contributions are welcome and are greatly appreciated! Every little bit helps, and credit will always be given.
+
 ## 💖 Support my projects
 
 I open-source almost everything I can, and I try to reply everyone needing help using these projects. Obviously, this takes time. You can integrate and use these projects in your applications for free! You can even change the source code and redistribute (even resell it).
