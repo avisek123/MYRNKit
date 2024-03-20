@@ -134,7 +134,7 @@ However, if you get some profit from this or just want to encourage me to contin
 - Starring and sharing the projects you like 🚀
 - If you're feeling especially charitable, please follow [avisek123](https://github.com/avisek123) on GitHub.
 
-  <a href="https://www.buymeacoffee.com/avisek123 target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+ <a href="https://www.buymeacoffee.com/avisek123" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
   Thanks! ❤️
   <br/>
