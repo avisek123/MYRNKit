@@ -23,6 +23,7 @@ https://github.com/avisek123/MYRNKit/assets/62586380/9741e408-1c00-43b5-9625-d6a
 - **react-hook-form**: react-hook-form is a library for managing large input field. It's super light weight and optimizable.
 - **rtk query**: RTK Query is a powerful data fetching and caching library built on top of Redux Toolkit.
 - **@shopify/flash-list**: Fast & performant React Native list.
+- **react-native-fast-image**: Boost your app's performance with React Native Fast Image for seamless image loading!
 - **Authentication Stack**: Boilerplate includes authentication stack for user authentication.
 - **Main Stack**: Configured main stack for navigation and UI structure.
 - **And Many More**: Additional features and configurations to streamline development.
