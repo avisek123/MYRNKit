@@ -1,7 +1,7 @@
 // External Library Import
-import {useForm, Controller} from 'react-hook-form';
-import {useTranslation} from 'react-i18next';
-import React, {useState} from 'react';
+import { useForm, Controller } from "react-hook-form";
+import { useTranslation } from "react-i18next";
+import React, { useState } from "react";
 import {
   Image,
   SafeAreaView,
@@ -10,32 +10,32 @@ import {
   Text,
   TextInput,
   View,
-} from 'react-native';
+} from "react-native";
 // Internal Library Import
-import {AnimatedButton, AppText} from 'components/core';
-import {useBasicFunctions} from 'hooks';
-import {DimensionHeight} from 'utils';
-import {GlobalStyles} from 'styles';
+import { AnimatedButton, AppText } from "components/core";
+import { useBasicFunctions } from "hooks";
+import { DimensionHeight } from "utils";
+import { GlobalStyles } from "styles";
 
 interface ILoginFormData {
   Email: string;
   Password: string;
 }
 const Login = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   const [btnClicked, setBtnClicked] = useState(false);
-  const {handleLogin} = useBasicFunctions();
+  const { handleLogin } = useBasicFunctions();
 
   const {
     handleSubmit,
     control,
-    formState: {errors},
+    formState: { errors },
   } = useForm({
-    mode: 'onTouched',
+    mode: "onTouched",
     shouldFocusError: true,
     defaultValues: {
-      Email: '',
-      Password: '',
+      Email: "",
+      Password: "",
     },
   });
   const onSubmit = (data: ILoginFormData) => {
@@ -43,6 +43,7 @@ const Login = () => {
       email: data?.Email,
       password: data?.Password,
     };
+    console.log("infoData", infoData);
     setBtnClicked(!btnClicked);
     setTimeout(() => {
       handleLogin();
@@ -53,29 +54,32 @@ const Login = () => {
     <SafeAreaView
       style={{
         flex: 1,
-        backgroundColor: '#fff',
-      }}>
+        backgroundColor: "#fff",
+      }}
+    >
       <ScrollView
         keyboardShouldPersistTaps="always"
-        showsVerticalScrollIndicator={false}>
+        showsVerticalScrollIndicator={false}
+      >
         <Image
           source={{
-            uri: 'https://img.freepik.com/premium-vector/secure-login-concept-illustration-web-password-account-password_203633-3756.jpg?w=1480',
+            uri: "https://img.freepik.com/premium-vector/secure-login-concept-illustration-web-password-account-password_203633-3756.jpg?w=1480",
           }}
-          style={{height: DimensionHeight * 0.3, marginTop: '10%'}}
+          style={{ height: DimensionHeight * 0.3, marginTop: "10%" }}
           resizeMode="contain"
         />
         <View
           style={{
-            marginTop: '10%',
-          }}>
+            marginTop: "10%",
+          }}
+        >
           <AppText
             text="LOG_IN_TO_YOUR_ACCOUNT"
             style={{
               marginLeft: 10,
               fontSize: 22,
-              color: '#000',
-              fontWeight: '600',
+              color: "#000",
+              fontWeight: "600",
             }}
           />
 
@@ -92,22 +96,23 @@ const Login = () => {
         <View
           style={{
             marginHorizontal: 15,
-          }}>
+          }}
+        >
           <AppText text="EMAIL" style={styles.text} />
 
           <Controller
             control={control}
             render={({
-              field: {onChange, onBlur, value},
-              fieldState: {error},
+              field: { onChange, onBlur, value },
+              fieldState: { error },
             }) => (
               <TextInput
-                onChangeText={value => onChange(value)}
+                onChangeText={(value) => onChange(value)}
                 value={value}
-                placeholder={t('ENTER_YOUR_EMAIL')}
+                placeholder={t("ENTER_YOUR_EMAIL")}
                 style={{
                   ...styles.inputContainer,
-                  borderColor: error ? 'red' : '#ccc',
+                  borderColor: error ? "red" : "#ccc",
                 }}
                 autoCapitalize="none"
                 autoCorrect={false}
@@ -119,11 +124,11 @@ const Login = () => {
             rules={{
               required: {
                 value: true,
-                message: t('EMAIL_REQ'),
+                message: t("EMAIL_REQ"),
               },
               pattern: {
                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                message: 'Invalid email address!',
+                message: "Invalid email address!",
               },
             }}
           />
@@ -134,17 +139,17 @@ const Login = () => {
           <Controller
             control={control}
             render={({
-              field: {onChange, onBlur, value},
-              fieldState: {error},
+              field: { onChange, onBlur, value },
+              fieldState: { error },
             }) => (
               <TextInput
-                onChangeText={value => onChange(value)}
+                onChangeText={(value) => onChange(value)}
                 value={value}
                 style={{
                   ...styles.inputContainer,
-                  borderColor: error ? 'red' : '#ccc',
+                  borderColor: error ? "red" : "#ccc",
                 }}
-                placeholder={t('ENTER_YOUR_PASSWORD')}
+                placeholder={t("ENTER_YOUR_PASSWORD")}
                 autoCapitalize="none"
                 autoCorrect={false}
                 onBlur={onBlur}
@@ -154,7 +159,7 @@ const Login = () => {
             rules={{
               required: {
                 value: true,
-                message: t('PASS_REQ'),
+                message: t("PASS_REQ"),
               },
             }}
           />
@@ -178,27 +183,27 @@ export default Login;
 
 const styles = StyleSheet.create({
   logo: {
-    width: '100%',
+    width: "100%",
     maxWidth: 300,
     maxHeight: 200,
-    alignSelf: 'center',
+    alignSelf: "center",
     marginTop: 15,
   },
   inputContainer: {
     marginTop: 5,
     marginBottom: 10,
-    width: '100%',
+    width: "100%",
     height: DimensionHeight / 22,
-    borderColor: '#ccc',
+    borderColor: "#ccc",
     borderRadius: 3,
     borderWidth: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#fff',
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#fff",
   },
   text: {
-    color: '#000',
-    marginTop: '5%',
-    fontWeight: '500',
+    color: "#000",
+    marginTop: "5%",
+    fontWeight: "500",
   },
 });
