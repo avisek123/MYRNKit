@@ -10,7 +10,7 @@ import { AppBar, Card } from "components";
 
 const Home = () => {
   const { data, isLoading } = useGetBlogsQuery(undefined);
-
+  // const a = 12;
   // console.log("data", data);
   const renderItem = ({ item }: { item: ProductsDataType }) => {
     // Render each item here
