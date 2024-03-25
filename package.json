@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/avisek123/MYRNKit/issues"
   },
-  "homepage": "https://github.com/avisek123/MYRNKit#readme"
+  "homepage": "https://github.com/avisek123/MYRNKit#readme",
+  "devDependencies": {}
 }
