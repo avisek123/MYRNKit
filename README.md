@@ -1,10 +1,26 @@
+
+
+
+![avisek](https://github.com/avisek123/MYRNKit/assets/62586380/406b0763-1e11-4240-abca-35fbcd1cf069)
+
 # MYRNKit
 
 ⚛️ React Native Boilerplate: Jumpstart your app development with essential configurations for React Native projects. Includes libraries, navigation, state management. Streamline your workflow and focus on building amazing mobile experiences! 📱✨
 
+<!-- ![React Native Boilerplate License](https://img.shields.io/github/license/avisek123/MYRNKit) -->
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
+![React Native Boilerplate Top Language](https://img.shields.io/github/languages/top/avisek123/MYRNKit)
+[![npm version](https://img.shields.io/npm/v/my-rn-kit)](https://www.npmjs.com/package/my-rn-kit)
+
 # 📱 Preview of myapp
 
-# Key Features
+
+
+https://github.com/avisek123/MYRNKit/assets/62586380/9741e408-1c00-43b5-9625-d6a87d385c43
+
+
+
+# Key Features ⭐️
 
 - **Handle state management using redux-toolkit**: Redux Toolkit offers a powerful and efficient way to handle complex state logic.
 - **MMKV - The fastest key/value storage for React Native**: react-native-mmkv is a library for React Native that provides bindings to MMKV, a high-performance key-value storage library for Android and iOS.
@@ -12,6 +28,7 @@
 - **react-hook-form**: react-hook-form is a library for managing large input field. It's super light weight and optimizable.
 - **rtk query**: RTK Query is a powerful data fetching and caching library built on top of Redux Toolkit.
 - **@shopify/flash-list**: Fast & performant React Native list.
+- **react-native-fast-image**: Boost your app's performance with React Native Fast Image for seamless image loading!
 - **Authentication Stack**: Boilerplate includes authentication stack for user authentication.
 - **Main Stack**: Configured main stack for navigation and UI structure.
 - **And Many More**: Additional features and configurations to streamline development.
@@ -114,6 +131,27 @@ cd ios
 pod install
 yarn ios
 ```
+## 🤔 How to contribute
+
+Have an idea? Found a bug? Please raise to [ISSUES](https://github.com/avisek123/MYRNKit/issues).
+Contributions are welcome and are greatly appreciated! Every little bit helps, and credit will always be given.
+
+## 💖 Support my projects
+
+I open-source almost everything I can, and I try to reply everyone needing help using these projects. Obviously, this takes time. You can integrate and use these projects in your applications for free! You can even change the source code and redistribute (even resell it).
+
+However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
+
+- Starring and sharing the projects you like 🚀
+- If you're feeling especially charitable, please follow [avisek123](https://github.com/avisek123) on GitHub.
+
+ <a href="https://www.buymeacoffee.com/avisek123" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+  Thanks! ❤️
+  <br/>
+  [avisek123.github.io](https://github.com/avisek123)
+  <br/>
+  <Avisek />
 
 ## Acknowledgements
 
